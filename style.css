@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Lato:ital,wght@1,300&family=Outfit:wght@400;700&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+    
+}
+
+.container{
+    height: 500px;
+    width: 325px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+
+.card_header{
+    height: 63%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.card_body{
+    height: 37%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 25px;
+}
+
+h2{
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+}
+
+p{
+    text-align: center;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    letter-spacing: 0.3px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    position: absolute;
+    top: 95%;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
